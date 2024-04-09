@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Paper } from '@mui/material';
 
-interface ListProps<T> {
+export interface ListProps<T> {
     items: T[];
     renderItem: (item: T) => React.ReactNode;
 }

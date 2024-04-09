@@ -13,7 +13,7 @@ function App() {
       <BasicComponents basic={['Interface', 'Type', 'Functions', 'Classes']}/>
       <PersonIdentity name="Sergio" age="27" hobbies={['futbol', 'billar', 'comer']}/>
       <List items={['One', 'Two', 'Three']} renderItem={(item) => <span>{item}</span>}/>
-      <Counter />
+      <Counter name='Counter' initialCount={0} buttonIncrement='increment' buttonDecrement='decrement'/>
     </div>
   );
 }

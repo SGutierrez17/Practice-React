@@ -4,7 +4,7 @@ import React from 'react'
 
 import { Paper } from '@mui/material';
 
-interface typescriptBasic{
+export interface typescriptBasic{
     basic: string[];
 }
     

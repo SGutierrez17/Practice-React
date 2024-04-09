@@ -1,13 +1,12 @@
 import { Chip, Paper } from "@mui/material";
 
-
-interface person{
+export type PersonProps = {
     name: string;
     age: string;
     hobbies: string[];
 }
 
-export default function PersonIdentity({name, age, hobbies = []}:person) {
+export default function PersonIdentity({name, age, hobbies = []}:PersonProps) {
     return (
         <Paper sx={{width:'180px', padding:'20px', m:'12px'}}>
             <Chip label={name}/>
