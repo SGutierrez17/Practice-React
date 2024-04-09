@@ -8,7 +8,7 @@ export type PersonProps = {
 
 export default function PersonIdentity({name, age, hobbies = []}:PersonProps) {
     return (
-        <Paper sx={{width:'180px', padding:'20px', m:'12px'}}>
+        <Paper>
             <Chip label={name}/>
             <Chip label={age}/>
             <ul>

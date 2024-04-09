@@ -3,6 +3,7 @@
 import React from 'react'
 
 import { Paper } from '@mui/material';
+import theme from '../theme/theme';
 
 export interface typescriptBasic{
     basic: string[];
@@ -11,9 +12,9 @@ export interface typescriptBasic{
     const BasicComponents: React.FC<typescriptBasic> = ({ basic }) => {
         return (
             <div>
-                <Paper sx={{width:'180px', padding:'20px', m:'12px'}}>
+                <Paper style={{color: theme.palette.secondary.main}}>
                 <h2>Typescript Basics</h2>
-                <ul>
+                <ul >
                     {basic.map((basic, index) => (
                     <li key={index}>{basic}</li>
                     ))}
