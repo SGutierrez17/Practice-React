@@ -5,6 +5,7 @@ import PersonIdentity from '../organisms/person-identity';
 import List from '../organisms/t-list';
 import Counter from '../organisms/counter';
 import NavBar from '../organisms/nav-bar';
+import InputRegex from '../organisms/input-regex';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <List items={['One', 'Two', 'Three','Four']} renderItem={(item) => <span>{item}</span>}/>
       <Counter name='Counter' initialCount={0} buttonIncrement='increment' buttonDecrement='decrement'/>
       <NavBar />
+      <InputRegex />
     </div>
   );
 }
