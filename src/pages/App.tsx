@@ -6,6 +6,7 @@ import List from '../organisms/t-list';
 import Counter from '../organisms/counter';
 import NavBar from '../organisms/nav-bar';
 import InputRegex from '../organisms/input-regex';
+import RouterApp from '../organisms/router/router-app';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Counter name='Counter' initialCount={0} buttonIncrement='increment' buttonDecrement='decrement'/>
       <NavBar />
       <InputRegex />
+      <RouterApp />
     </div>
   );
 }

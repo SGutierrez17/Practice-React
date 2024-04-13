@@ -27,7 +27,7 @@ const theme = createTheme({
                     margin:'8px'
                 }
             }
-        }
+        },
     }
 })
 
