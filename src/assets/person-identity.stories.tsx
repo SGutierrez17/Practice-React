@@ -1,4 +1,3 @@
-import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 import PersonIdentity from '../organisms/person-identity';
 
@@ -14,7 +13,7 @@ export default {
 export const Primary : StoryObj<typeof PersonIdentity> = {
     args : {
     name: 'Sergio',
-    age: '27',
+    age: 27,
     hobbies: ['futbol', 'billar', 'comer']
     }
 }

@@ -6,7 +6,7 @@ import List from '../organisms/t-list';
 import Counter from '../organisms/counter';
 import NavBar from '../organisms/nav-bar';
 import InputRegex from '../organisms/input-regex';
-import RouterApp from '../organisms/router/router-app';
+import RouterApp from '../router/router-app';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <ButtonPractice />
       <CIButton variant="contained" fullWidth color="error">On click</CIButton>
       <BasicComponents basic={['Interface', 'Type', 'Functions', 'Classes']}/>
-      <PersonIdentity name="Sergio" age="27" hobbies={['futbol', 'billar', 'comer']}/>
+      <PersonIdentity name="Sergio" age={27} hobbies={['futbol', 'billar', 'comer']}/>
       <List items={['One', 'Two', 'Three','Four']} renderItem={(item) => <span>{item}</span>}/>
       <Counter name='Counter' initialCount={0} buttonIncrement='increment' buttonDecrement='decrement'/>
       <NavBar />

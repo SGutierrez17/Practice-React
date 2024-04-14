@@ -7,7 +7,7 @@ import NotFound from './not-found'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import theme from '../../theme/theme'
+import theme from '../theme/theme'
 
 export default function RouterApp() {
   return (
